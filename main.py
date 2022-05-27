@@ -7,7 +7,7 @@ def read_file_content(filename):
     # [assignment] Add your code here
     with open(filename, 'r') as f:
         file = f.read()
-
+        
     return file
 
 output = read_file_content('./story.txt')
